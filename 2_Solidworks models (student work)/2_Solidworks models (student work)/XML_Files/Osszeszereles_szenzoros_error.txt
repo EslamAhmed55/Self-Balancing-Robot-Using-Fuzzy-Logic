@@ -1,0 +1,20 @@
+Constrained Instances: 'Probapanel-2', 'Probapanel-2', 'Osszeszereles_szenzoros'
+Constraint Name: Symmetric9
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Probapanel-2', 'Probapanel-2', 'Osszeszereles_szenzoros'
+Constraint Name: Symmetric10
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Akksi-1', 'Akksi-1', 'Osszeszereles_szenzoros'
+Constraint Name: Symmetric11
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Akksi-1', 'Akksi-1', 'Osszeszereles_szenzoros'
+Constraint Name: Symmetric12
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Vaz-1', 'Osszeszereles_szenzoros'
+Constraint Name: Coincident33
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

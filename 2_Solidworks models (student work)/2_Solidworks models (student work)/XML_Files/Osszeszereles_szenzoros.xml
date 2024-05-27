@@ -1,0 +1,2709 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/05/24||18:19:47" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Osszeszereles_szenzoros" uid="Osszeszereles_szenzoros" version="445">
+<AssemblyFile name="Osszeszereles_szenzoros.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="M3x10 Philips Screw-6" uid="M3x10 Philips Screw-6" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 -0.055386174957395097 -0.99846500771113089 0 0.99846500771113089 -0.055386174957395097 0</Rotation>
+<Translation>0.083629998921758722 0.020423393758658755 0.0077500000000004961</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520-2" uid="JGB37-520-2" entityUid="JGB37-520" rigid="true">
+<Transform>
+<Rotation>0 0 1 -7.4384942649885472e-15 -1 0 1 -7.4384942649885472e-15 0</Rotation>
+<Translation>0.078629998921758745 0.0070000000000000001 0</Translation>
+</Transform>
+<Instance name="pan_head_phillip_mc_screw_m2-6" uid="pan_head_phillip_mc_screw_m2-6" entityUid="pan_head_phillip_mc_screw_m2*:*Default">
+<Transform>
+<Rotation>-0.51182074495903973 0 -0.85909226805365546 -0.85909226805365557 0 0.51182074495903973 0 1 0</Rotation>
+<Translation>0 -0.015500000000000003 -0.0016000000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="pan_head_phillip_mc_screw_m2-7" uid="pan_head_phillip_mc_screw_m2-7" entityUid="pan_head_phillip_mc_screw_m2*:*Default">
+<Transform>
+<Rotation>0.99990610080877596 0 -0.013703633291572204 -0.013703633291572093 0 -0.99990610080877584 0 1 0</Rotation>
+<Translation>0.013423393758658766 0.0077500000000000607 -0.0016000000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-2" uid="CONNECTION, DC MOTOR, JGB37-520-2" entityUid="CONNECTION, DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 6.9829626776862683e-15 0 6.9829626776862667e-15 -1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0 -0.012800000000000002 -0.050249999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="PLASTIC COVER, DC MOTOR, JGB37-520-1" uid="PLASTIC COVER, DC MOTOR, JGB37-520-1" entityUid="PLASTIC COVER, DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.048499999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1" uid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1" entityUid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.024999999999999994</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="SHAFT COUPLER, JGB37-520-1" uid="SHAFT COUPLER, JGB37-520-1" entityUid="SHAFT COUPLER, JGB37-520*:*Default">
+<Transform>
+<Rotation>0.63178652509498834 -0.77514242994974802 0 0.77514242994974802 0.63178652509498834 0 0 0 1</Rotation>
+<Translation>0 0.0070000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DC MOTOR, JGB37-520-1" uid="DC MOTOR, JGB37-520-1" entityUid="DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>-1 -1.1102230246251565e-16 0 1.1102230246251565e-16 -1 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -0.028999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-1" uid="CONNECTION, DC MOTOR, JGB37-520-1" entityUid="CONNECTION, DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0 0.012800000000000002 -0.050249999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="MOTOR SHAFT, JGB37-520-1" uid="MOTOR SHAFT, JGB37-520-1" entityUid="MOTOR SHAFT, JGB37-520*:*Default">
+<Transform>
+<Rotation>-0.94250554661510455 -0.33419050644768905 0 0.33419050644768905 -0.94250554661510455 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0.0070000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="muanyag_fedo-1" uid="muanyag_fedo-1" grounded="true" entityUid="muanyag_fedo*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.063500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="pan_head_phillip_mc_screw_m2-3" uid="pan_head_phillip_mc_screw_m2-3" grounded="true" entityUid="pan_head_phillip_mc_screw_m2*:*Default">
+<Transform>
+<Rotation>-0.48808535584973228 0 0.87279590134523444 0.87279590134523444 0 0.48808535584973217 0 1 0</Rotation>
+<Translation>-0.013423393758658763 0.0077500000000000659 -0.0016000000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="GEARED BODY, MOTOR, JGB37-520-1" uid="GEARED BODY, MOTOR, JGB37-520-1" entityUid="GEARED BODY, MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="M3x10 Philips Screw-5" uid="M3x10 Philips Screw-5" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 1 0.83700297398896861 -0.54719833838711729 0 0.54719833838711729 0.83700297398896861 0</Rotation>
+<Translation>0.083629998921758722 0.020423393758658814 -0.0077499999999995307</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x10 Philips Screw-10" uid="M3x10 Philips Screw-10" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.055386174957395111 -0.99846500771113089 0 -0.99846500771113111 -0.055386174957395104 0</Rotation>
+<Translation>-0.081370001078241258 0.020423393758658755 0.0077500000000004961</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x10 Philips Screw-11" uid="M3x10 Philips Screw-11" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 -1 -0.055386174957402098 0.99846500771113056 0 0.99846500771113056 0.055386174957402098 0</Rotation>
+<Translation>-0.081370001078241258 -0.0064233937586586987 -0.0077499999999997345</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x10 Philips Screw-7" uid="M3x10 Philips Screw-7" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 1 0.055386174957402112 0.99846500771113078 0 -0.99846500771113078 0.055386174957402112 0</Rotation>
+<Translation>0.083629998921758722 -0.0064233937586586996 -0.0077499999999997345</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x10 Philips Screw-8" uid="M3x10 Philips Screw-8" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.83700297398896484 0.54719833838712306 0 0.54719833838712317 -0.83700297398896473 0</Rotation>
+<Translation>-0.081370001078241258 -0.0064233937586588713 0.0077500000000002931</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x12 Philips Screw_part-2" uid="M3x12 Philips Screw_part-2" entityUid="M3x12 Philips Screw_part*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.92422459273630286 0.38184931868659283 0 0.38184931868659283 -0.92422459273630286 0</Rotation>
+<Translation>-0.10887000107824125 8.0392055448823113e-07 -2.850514968984523e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x10 Philips Screw-9" uid="M3x10 Philips Screw-9" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 -1 -0.83700297398896861 -0.54719833838711729 0 -0.54719833838711729 0.83700297398896861 0</Rotation>
+<Translation>-0.081370001078241258 0.020423393758658814 -0.0077499999999995307</Translation>
+</Transform>
+</Instance>
+<Instance name="Probapanel-2" uid="Probapanel-2" entityUid="Probapanel*:*Default">
+<Transform>
+<Rotation>-1 0 1.1102230246251565e-16 0 -1 0 1.1102230246251565e-16 0 1</Rotation>
+<Translation>0.001129998921758732 -0.057999999999999996 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Vaz-1" uid="Vaz-1" entityUid="Vaz" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="base-1" uid="base-1" entityUid="base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.081370001078241286 -0.017000000000000001 0.019000000000000017</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0.18431372549019609" b="0.15294117647058825" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.12901960784313726" b="0.10705882352941176" a="1"/>
+<Specular r="0.050000000000000003" g="0.0092156862745098045" b="0.007647058823529413" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="table-1" uid="table-1" entityUid="table*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.081370001078241258 -0.058000000000000003 0.045000000000000012</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0.18431372549019609" b="0.15294117647058825" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.12901960784313726" b="0.10705882352941176" a="1"/>
+<Specular r="0.050000000000000003" g="0.0092156862745098045" b="0.007647058823529413" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="M3x10 Philips Screw-1" uid="M3x10 Philips Screw-1" grounded="true" entityUid="M3x10 Philips Screw*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.83700297398896484 0.54719833838712317 0 -0.54719833838712317 -0.83700297398896484 0</Rotation>
+<Translation>0.083629998921758722 -0.0064233937586588713 0.0077500000000002931</Translation>
+</Transform>
+</Instance>
+<Instance name="Kerek-1" uid="Kerek-1" entityUid="Kerek*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.76067024159484031 -0.64913849335257201 0 -0.64913849335257212 -0.76067024159484053</Rotation>
+<Translation>-0.11131044337471412 6.4882211526194611e-07 -5.5368987417810794e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x6 Philips Screw_part-1" uid="M3x6 Philips Screw_part-1" grounded="true" entityUid="M3x6 Philips Screw_part*:*Default">
+<Transform>
+<Rotation>-0.98456928346509931 -0.17499521724041714 0 -0.16493396288020876 0.92796201069271778 -0.334190506447682 0.058481740275497136 -0.32903370747403293 -0.94250554661510699</Rotation>
+<Translation>0.092129998921758785 -0.0028019917198908954 -0.0080249935878158388</Translation>
+</Transform>
+</Instance>
+<Instance name="Felni_vivo_elem-1" uid="Felni_vivo_elem-1" entityUid="Felni_vivo_elem*:*Default">
+<Transform>
+<Rotation>1 0 1.6158052575835522e-16 -1.3665285341819506e-16 -0.76067024159483443 0.64913849335257912 0 -0.64913849335257912 -0.76067024159483443</Rotation>
+<Translation>0.12141768964829838 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x6 Philips Screw_part-2" uid="M3x6 Philips Screw_part-2" grounded="true" entityUid="M3x6 Philips Screw_part*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.94250554661510211 -0.3341905064476961 0 0.3341905064476961 0.94250554661510211</Rotation>
+<Translation>-0.089870001078241279 -0.002801991719891022 0.0080249935878161736</Translation>
+</Transform>
+</Instance>
+<Instance name="NanoV3 v4-1" uid="NanoV3 v4-1" entityUid="NanoV3 v4" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0025100010782412516 -0.071099999964237201 -0.0088899999999999986</Translation>
+</Transform>
+<Instance name="NanoV3 v4.step-1" uid="NanoV3 v4.step-1" grounded="true" entityUid="NanoV3 v4.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PCB.step-1" uid="PCB.step-1" grounded="true" entityUid="PCB.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="TopFace.step-1" uid="TopFace.step-1" grounded="true" entityUid="TopFace.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PinEnd.step-1" uid="PinEnd.step-1" grounded="true" entityUid="PinEnd.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.0025400000000000006</Translation>
+</Transform>
+<Instance name="Pin.step-1" uid="Pin.step-1" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.025000000000000001 0.0016000000000000042 0.057679999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-4" uid="Pin.step-4" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.027539999999999999 0.0016000000000000042 0.057679999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-3" uid="Pin.step-3" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.025000000000000001 0.0016000000000000042 0.062759999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-5" uid="Pin.step-5" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.027539999999999999 0.0016000000000000042 0.060219999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-6" uid="Pin.step-6" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.027539999999999999 0.0016000000000000042 0.062759999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-2" uid="Pin.step-2" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.025000000000000001 0.0016000000000000042 0.060219999999999996</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Leds.step-1" uid="Leds.step-1" grounded="true" entityUid="Leds.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Led.step-2" uid="Led.step-2" grounded="true" entityUid="Led.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0032499999999999999 0 -0.0172</Translation>
+</Transform>
+</Instance>
+<Instance name="Led.step-1" uid="Led.step-1" grounded="true" entityUid="Led.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0032499999999999999 0 -0.013599999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Led.step-3" uid="Led.step-3" grounded="true" entityUid="Led.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0032499999999999999 0 -0.020799999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Led (1).step-1" uid="Led (1).step-1" grounded="true" entityUid="Led (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0032499999999999999 0 -0.0099999999999999985</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="USB.step-1" uid="USB.step-1" grounded="true" entityUid="USB.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="switch.step-1" uid="switch.step-1" grounded="true" entityUid="switch.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0013966292724230001 -0.0015000000000000013 0.022339149827214001</Translation>
+</Transform>
+</Instance>
+<Instance name="chip1.step-1" uid="chip1.step-1" grounded="true" entityUid="chip1.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Crystal.step-1" uid="Crystal.step-1" grounded="true" entityUid="Crystal.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="PCB-0.step-1" uid="PCB-0.step-1" grounded="true" entityUid="PCB-0.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BottomFace.step-1" uid="BottomFace.step-1" grounded="true" entityUid="BottomFace.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PinRow1.step-1" uid="PinRow1.step-1" grounded="true" entityUid="PinRow1.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Pin.step-9" uid="Pin.step-9" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.043040000000000002 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-1" uid="Pin.step-1" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045580000000000002 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-2" uid="Pin.step-2" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048120000000000003 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-4" uid="Pin.step-4" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.053199999999999997 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-5" uid="Pin.step-5" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.055739999999999998 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-6" uid="Pin.step-6" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.058279999999999998 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-3" uid="Pin.step-3" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050659999999999997 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-7" uid="Pin.step-7" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.060819999999999999 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-8" uid="Pin.step-8" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.06336 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-15" uid="Pin.step-15" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.027799999999999998 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-13" uid="Pin.step-13" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03288 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-11" uid="Pin.step-11" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037960000000000001 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-14" uid="Pin.step-14" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.030339999999999999 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-10" uid="Pin.step-10" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.040500000000000001 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin.step-12" uid="Pin.step-12" grounded="true" entityUid="Pin.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03542 0 -0.032100000000000004</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Chip.step-1" uid="Chip.step-1" grounded="true" entityUid="Chip.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="vreg.step-1" uid="vreg.step-1" grounded="true" entityUid="vreg.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016299999999999999 0.0016000000000000042 -0.0155</Translation>
+</Transform>
+</Instance>
+<Instance name="PinRow2.step-1" uid="PinRow2.step-1" grounded="true" entityUid="PinRow2.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.017899999999999999</Translation>
+</Transform>
+<Instance name="Pin (1).step-12" uid="Pin (1).step-12" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03542 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-7" uid="Pin (1).step-7" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.060819999999999999 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-1" uid="Pin (1).step-1" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045580000000000002 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-9" uid="Pin (1).step-9" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.043040000000000002 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-14" uid="Pin (1).step-14" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.030339999999999999 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-2" uid="Pin (1).step-2" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048120000000000003 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-10" uid="Pin (1).step-10" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.040500000000000001 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-13" uid="Pin (1).step-13" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03288 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-3" uid="Pin (1).step-3" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050659999999999997 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-5" uid="Pin (1).step-5" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.055739999999999998 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-11" uid="Pin (1).step-11" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037960000000000001 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-8" uid="Pin (1).step-8" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.06336 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-15" uid="Pin (1).step-15" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.027799999999999998 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-6" uid="Pin (1).step-6" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.058279999999999998 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Pin (1).step-4" uid="Pin (1).step-4" grounded="true" entityUid="Pin (1).step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.053199999999999997 0 0.03209999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Resistors.step-1" uid="Resistors.step-1" grounded="true" entityUid="Resistors.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Res.step-3" uid="Res.step-3" grounded="true" entityUid="Res.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0028999999999999998 0.0016000000000000042 0.023099999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Res.step-2" uid="Res.step-2" grounded="true" entityUid="Res.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.012200000000000001 0.0016000000000000042 0.0246</Translation>
+</Transform>
+</Instance>
+<Instance name="Res.step-4" uid="Res.step-4" grounded="true" entityUid="Res.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0028999999999999998 0.0016000000000000042 0.026200000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Res.step-5" uid="Res.step-5" grounded="true" entityUid="Res.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.016299999999999999 0.0016000000000000042 0.01915</Translation>
+</Transform>
+</Instance>
+<Instance name="Res.step-1" uid="Res.step-1" grounded="true" entityUid="Res.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.012200000000000001 0.0016000000000000042 0.029149999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="respacks.step-1" uid="respacks.step-1" grounded="true" entityUid="respacks.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="respack.step-1" uid="respack.step-1" grounded="true" entityUid="respack.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00085000000000000006 0.0016000000000000042 -0.0218</Translation>
+</Transform>
+</Instance>
+<Instance name="respack.step-2" uid="respack.step-2" grounded="true" entityUid="respack.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00085000000000000006 0.0016000000000000042 -0.026800000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="caps.step-1" uid="caps.step-1" grounded="true" entityUid="caps.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="cap.step-1" uid="cap.step-1" grounded="true" entityUid="cap.step*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.068250000000000005 0.0016000000000000042 0.043825000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="cap.step-2" uid="cap.step-2" grounded="true" entityUid="cap.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014350000000000002 0.0016000000000000042 -0.032125000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="diode.step-1" uid="diode.step-1" grounded="true" entityUid="diode.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00014999999999999996 0.0016000000000000042 -0.028349999999999997</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="H-BRIDGE_v2-1" uid="H-BRIDGE_v2-1" entityUid="H-BRIDGE_v2" rigid="true">
+<Transform>
+<Rotation>-1.2557505110651975e-15 1 0 0 0 -1 -1 -1.2557505110651975e-15 0</Rotation>
+<Translation>0.048238554681075525 -0.069951479999999996 0.013896346584433183</Translation>
+</Transform>
+<Instance name="pin-52" uid="pin-52" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.011408944240683248 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-50" uid="pin-50" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.016488944240683256 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-51" uid="pin-51" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.013948944240683249 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="L298P-1" uid="L298P-1" entityUid="L298P*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.012699999999999999 0.0021600000000000022 0.00035000000000000309</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-1" uid="pin-1" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.019028944240683243 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="H-BRIDGE_v2.step-1" uid="H-BRIDGE_v2.step-1" grounded="true" entityUid="H-BRIDGE_v2.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="C3.step-1" uid="C3.step-1" grounded="true" entityUid="C3.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="691411416.step-1" uid="691411416.step-1" grounded="true" entityUid="691411416.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.020319946289063001 0.0025399193359380012 -0.0011887195110319992</Translation>
+</Transform>
+<Instance name="Extruded-0.step-1" uid="Extruded-0.step-1" grounded="true" entityUid="Extruded-0.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="U1.step-1" uid="U1.step-1" grounded="true" entityUid="U1.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="691415632.step-1" uid="691415632.step-1" grounded="true" entityUid="691415632.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.012699951171875 0.010160036523438006 0</Translation>
+</Transform>
+<Instance name="Extruded.step-1" uid="Extruded.step-1" grounded="true" entityUid="Extruded.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="C2.step-1" uid="C2.step-1" grounded="true" entityUid="C2.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="691415496.step-1" uid="691415496.step-1" grounded="true" entityUid="691415496.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.012699951171875 0.0025389427734380035 -0.0011887195110319992</Translation>
+</Transform>
+<Instance name="Extruded-1.step-1" uid="Extruded-1.step-1" grounded="true" entityUid="Extruded-1.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="C1.step-1" uid="C1.step-1" grounded="true" entityUid="C1.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="691411416.step-1" uid="691411416.step-1" grounded="true" entityUid="691411416.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0050799560546880007 0.0025399193359380012 -0.0011887195110319992</Translation>
+</Transform>
+<Instance name="Extruded-0.step-1" uid="Extruded-0.step-1" grounded="true" entityUid="Extruded-0.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Board.step-1" uid="Board.step-1" grounded="true" entityUid="Board.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="pin-60" uid="pin-60" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.011408944240683248 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-54" uid="pin-54" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.0063289442406832472 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-56" uid="pin-56" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.001248944240683246 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-62" uid="pin-62" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.0063289442406832472 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-55" uid="pin-55" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.0037889442406832466 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-63" uid="pin-63" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.0037889442406832466 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-64" uid="pin-64" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.001248944240683246 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-59" uid="pin-59" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.013948944240683249 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-58" uid="pin-58" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.016488944240683243 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-53" uid="pin-53" entityUid="pin*:*Default">
+<Transform>
+<Rotation>-1.414199816521409e-15 0 1 -1 0 -1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.0012910557593167477 0.0088689442406832478 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-61" uid="pin-61" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.0088689442406832478 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+<Instance name="pin-57" uid="pin-57" entityUid="pin*:*Default">
+<Transform>
+<Rotation>1.414199816521409e-15 0 1 -1 0 1.414199816521409e-15 0 -1 0</Rotation>
+<Translation>0.024108846584433255 0.019028944240683243 -0.00041148000000000573</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="hc05-1" uid="hc05-1" entityUid="hc05*:*Varsayilan">
+<Transform>
+<Rotation>0 -1 -1.5844930545621164e-16 1 0 2.2204460492503131e-16 -2.2204460492503131e-16 -1.5844930545621167e-16 1</Rotation>
+<Translation>-0.0095900010782412649 -0.1045 0.0072700000000000594</Translation>
+</Transform>
+</Instance>
+<Instance name="Felni_vivo_elem-3" uid="Felni_vivo_elem-3" entityUid="Felni_vivo_elem*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -0.76067024159484398 0.6491384933525679 0 0.6491384933525679 0.76067024159484398</Rotation>
+<Translation>-0.1191576918047809 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Kerek-2" uid="Kerek-2" entityUid="Kerek*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9425055466151101 0.33419050644767356 0 -0.33419050644767356 0.9425055466151101</Rotation>
+<Translation>0.11357044121823158 8.0392055448828131e-07 -2.8505149689890736e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="MPU 6050 IMU-1" uid="MPU 6050 IMU-1" entityUid="MPU 6050 IMU" rigid="true">
+<Transform>
+<Rotation>-1 2.293498440320756e-16 -9.0357451206414554e-15 -2.2934984403207487e-16 -1 0 -9.035745120641457e-15 -2.7755575615628909e-16 1</Rotation>
+<Translation>-0.036087885491712691 -0.059153133259981679 -0.017349103944801818</Translation>
+</Transform>
+<Instance name="pin header-4" uid="pin header-4" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.0084046155865285174 0.010386866740018298 0.009841603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-6" uid="pin header-6" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.0033246155865285162 0.010386866740018298 0.009841603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-2" uid="pin header-2" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.013484615586528512 0.010386866740018298 0.009841603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-3" uid="pin header-3" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.010944615586528511 0.010386866740018298 0.0098416039448019303</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-5" uid="pin header-5" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.0058646155865285168 0.010386866740018298 0.009841603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-4" uid="Resistor small black-4" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>0 0 -1 -2.8335600139780099e-16 1 0 1 -1.6073320845226567e-16 0</Rotation>
+<Translation>0.011127615586528514 0.011529866740018303 0.015697603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-7" uid="Resistor small-7" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>0 0 1 2.8335600139780099e-16 1 0 -1 -1.6073320845226567e-16 0</Rotation>
+<Translation>0.0033702155865285022 0.011531423749928014 0.019321603944801927</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-6" uid="Resistor small-6" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>0 0 1 2.8335600139780099e-16 1 0 -1 -1.6073320845226567e-16 0</Rotation>
+<Translation>0.011127615586528514 0.011531423749928014 0.019321603944801927</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-8" uid="pin header-8" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>-0.0017553844134714849 0.010386866740018298 0.0098416039448019303</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-7" uid="pin header-7" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.00078461558652851565 0.010386866740018298 0.009841603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-5" uid="Resistor small black-5" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>0 0 1 2.8335600139780099e-16 1 0 -1 -1.6073320845226567e-16 0</Rotation>
+<Translation>0.0018702155865285078 0.011529866740018303 0.015697225667557772</Translation>
+</Transform>
+</Instance>
+<Instance name="Base1-1" uid="Base1-1" grounded="true" entityUid="Base1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0072489155865285079 0.010958366740018301 0.016572603944801933</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-8" uid="Resistor small-8" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>1.2246467991473357e-16 0 -1 -2.8335600139780099e-16 1 0 1 -1.6073320845226567e-16 1.2246467991473673e-16</Rotation>
+<Translation>0.0033702155865285022 0.011531423749928014 0.015697603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-1" uid="pin header-1" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -2.2934984403207487e-16 -9.035745120641457e-15 2.293498440320756e-16 -1 -2.7755575615628909e-16 -9.0357451206414554e-15 0 1</Rotation>
+<Translation>0.016024615586528512 0.010386866740018298 0.009841603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="Small LED-1" uid="Small LED-1" entityUid="Small LED*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00036521558652850838 0.011529866740018303 0.015697603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-6" uid="Resistor small black-6" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>1.2246467991473357e-16 0 -1 -2.2204460492503333e-16 1 0 1 -2.2204460492503333e-16 1.2246467991473673e-16</Rotation>
+<Translation>0.0018702155865285078 0.011529866740018303 0.019321603944801927</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-3" uid="Resistor small black-3" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>0 0 -1 -2.8335600139780099e-16 1 0 1 -1.6073320845226567e-16 0</Rotation>
+<Translation>0.012627615586528515 0.011529866740018303 0.015697603944801932</Translation>
+</Transform>
+</Instance>
+<Instance name="sensor chip-1" uid="sensor chip-1" entityUid="sensor chip*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0072489155865285149 0.011549866740018296 0.017446603944801922</Translation>
+</Transform>
+</Instance>
+<Instance name="S2NH chip-1" uid="S2NH chip-1" entityUid="S2NH chip*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.016102615586528514 0.012379866740018307 0.016572603944801933</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-3" uid="Resistor small-3" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.016102615586528514 0.011531423749928014 0.019372603944801937</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-4" uid="Resistor small-4" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>1.2246467991473673e-16 0 1 2.8335600139780099e-16 1 0 -1 -1.6073320845226567e-16 1.2246467991473357e-16</Rotation>
+<Translation>0.013977615586528512 0.011531423749928014 0.015697603944801936</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-5" uid="Resistor small-5" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>0 0 1 2.8335600139780099e-16 1 0 -1 -1.6073320845226567e-16 0</Rotation>
+<Translation>0.012627615586528515 0.011531423749928014 0.019321603944801927</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor black-1" uid="Resistor black-1" entityUid="Resistor black*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0072489155865285079 0.012379866740018293 0.021646603944801925</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Akksi-1" uid="Akksi-1" entityUid="Akksi*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.001129998921758732 -0.043499999999999997 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3x12 Philips Screw_part-1" uid="M3x12 Philips Screw_part-1" grounded="true" entityUid="M3x12 Philips Screw_part*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.92422459273630286 0.38184931868659283 0 -0.38184931868659283 -0.92422459273630286 0</Rotation>
+<Translation>0.11112999892175872 8.0392055448823113e-07 -2.850514968984523e-07</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520-1" uid="JGB37-520-1" entityUid="JGB37-520" rigid="true">
+<Transform>
+<Rotation>0 0 -1 7.4384942649885472e-15 -1 0 -1 -7.4384942649885472e-15 0</Rotation>
+<Translation>-0.076370001078241281 0.0070000000000000062 0</Translation>
+</Transform>
+<Instance name="pan_head_phillip_mc_screw_m2-6" uid="pan_head_phillip_mc_screw_m2-6" entityUid="pan_head_phillip_mc_screw_m2*:*Default">
+<Transform>
+<Rotation>-0.51182074495903973 0 -0.85909226805365546 -0.85909226805365557 0 0.51182074495903973 0 1 0</Rotation>
+<Translation>0 -0.015500000000000003 -0.0016000000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="pan_head_phillip_mc_screw_m2-7" uid="pan_head_phillip_mc_screw_m2-7" entityUid="pan_head_phillip_mc_screw_m2*:*Default">
+<Transform>
+<Rotation>0.99990610080877596 0 -0.013703633291572204 -0.013703633291572093 0 -0.99990610080877584 0 1 0</Rotation>
+<Translation>0.013423393758658766 0.0077500000000000607 -0.0016000000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-2" uid="CONNECTION, DC MOTOR, JGB37-520-2" entityUid="CONNECTION, DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 6.9829626776862667e-15 0 6.9829626776862683e-15 -1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0 -0.012800000000000002 -0.050249999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="PLASTIC COVER, DC MOTOR, JGB37-520-1" uid="PLASTIC COVER, DC MOTOR, JGB37-520-1" entityUid="PLASTIC COVER, DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.048499999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1" uid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1" entityUid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.024999999999999994</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="SHAFT COUPLER, JGB37-520-1" uid="SHAFT COUPLER, JGB37-520-1" entityUid="SHAFT COUPLER, JGB37-520*:*Default">
+<Transform>
+<Rotation>0.63178652509498834 -0.77514242994974802 0 0.77514242994974802 0.63178652509498834 0 0 0 1</Rotation>
+<Translation>0 0.0070000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DC MOTOR, JGB37-520-1" uid="DC MOTOR, JGB37-520-1" entityUid="DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>-1 -1.1102230246251565e-16 0 1.1102230246251565e-16 -1 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -0.028999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-1" uid="CONNECTION, DC MOTOR, JGB37-520-1" entityUid="CONNECTION, DC MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0 0.012800000000000002 -0.050249999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="MOTOR SHAFT, JGB37-520-1" uid="MOTOR SHAFT, JGB37-520-1" entityUid="MOTOR SHAFT, JGB37-520*:*Default">
+<Transform>
+<Rotation>-0.94250554661510455 -0.33419050644768905 0 0.33419050644768905 -0.94250554661510455 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0.0070000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="muanyag_fedo-1" uid="muanyag_fedo-1" grounded="true" entityUid="muanyag_fedo*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.063500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="pan_head_phillip_mc_screw_m2-3" uid="pan_head_phillip_mc_screw_m2-3" grounded="true" entityUid="pan_head_phillip_mc_screw_m2*:*Default">
+<Transform>
+<Rotation>-0.48808535584973228 0 0.87279590134523444 0.87279590134523444 0 0.48808535584973217 0 1 0</Rotation>
+<Translation>-0.013423393758658763 0.0077500000000000659 -0.0016000000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="GEARED BODY, MOTOR, JGB37-520-1" uid="GEARED BODY, MOTOR, JGB37-520-1" entityUid="GEARED BODY, MOTOR, JGB37-520*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>table-1</Uid>
+</InstancePath>
+<Position>0.16499999999999998 0.0030000000000000027 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>-0.085500000000000007 0.0089999999999999941 -0.051499999999999976</Position>
+<Axis>-1 0 1.3473580395936367e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>table-1</Uid>
+</InstancePath>
+<Position>0.16499999999999998 0.0030000000000000027 0.0059999999999999984</Position>
+<Axis>-1.2616170734376778e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>-0.085499999999999993 0.0089999999999999941 0.051500000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>table-1</Uid>
+</InstancePath>
+<Position>0.11749999999999999 0.026000000000000002 -0.054999999999999931</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Akksi-1</Uid>
+</InstancePath>
+<Position>0.035000000000000003 0.011499999999999996 0.017500000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>table-1</Uid>
+</InstancePath>
+<Position>0 0.026000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Akksi-1</Uid>
+</InstancePath>
+<Position>-0.035000000000000003 0.011499999999999996 0.017500000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0.017000000000000001 -0.01900000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>SHAFT COUPLER, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0.010576606241341206 -0.011249999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>GEARED BODY, MOTOR, JGB37-520-1</Uid>
+</InstancePath>
+<Position>-0.0077500000000000633 0.013423393758658765 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0.03742339375865885 -0.026749999999999927</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>GEARED BODY, MOTOR, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0.0077500000000001569 -0.013423393758658708 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.024 -0.01900000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>GEARED BODY, MOTOR, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JGB37-520-2</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0 0 0.021499999999999991</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.036642264210609538 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-2</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0 0 0.0094999999999999946</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.033287690726539643 0.0029999999999999996 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-2</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0.0025000000000000001 0.0016583123951776999 0.0094999999999999946</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.029287690726539639 0.0078193834478483808 0.0014549532125258816</Position>
+<Axis>0 -0.50000000000000122 0.86602540378443815</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0 0 0.021499999999999991</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.036642264210609538 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0 0 0.0094999999999999946</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.033287690726539643 0.0030000000000000001 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0.0025000000000000001 0.0016583123951776997 0.0094999999999999946</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.029287690726539639 0.0078193834478483808 0.0014549532125258809</Position>
+<Axis>0 -0.50000000000000122 0.86602540378443815</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.041427808091099333 0.0031750000000000645 -0.0054992613140311493</Position>
+<Axis>0 0.86602540378444171 -0.49999999999999523</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-1</Uid>
+</InstancePath>
+<Position>-0.010440442296472854 -0.0063508529610858877 0</Position>
+<Axis>0 0.86602540378443871 -0.50000000000000022</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.041427808091099333 0.0063500000000000006 0</Position>
+<Axis>0 0.86602540378443815 0.50000000000000122</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-1</Uid>
+</InstancePath>
+<Position>-0.010440442296472854 -0.0031754264805429417 -0.0055000000000000058</Position>
+<Axis>0 0.8660254037844386 0.50000000000000056</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.018287690726539643 0.0063499999999999997 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-1</Uid>
+</InstancePath>
+<Position>-0.010440442296472854 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.018287690726539643 0.0063500000000000015 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-2</Uid>
+</InstancePath>
+<Position>-0.010440442296472854 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.041427808091099333 -0.0031749999999999491 -0.0054992613140312152</Position>
+<Axis>0 1.0436096431476471e-14 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-2</Uid>
+</InstancePath>
+<Position>-0.010440442296472854 -0.0063508529610858868 0</Position>
+<Axis>0 0.86602540378443871 -0.5</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.041427808091099333 0.0031750000000000636 -0.0054992613140311493</Position>
+<Axis>0 0.86602540378444159 -0.49999999999999512</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-2</Uid>
+</InstancePath>
+<Position>-0.010440442296472854 -0.0031754264805429395 -0.005500000000000004</Position>
+<Axis>0 0.8660254037844386 0.50000000000000033</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>table-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Coincident33">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Osszeszereles_szenzoros</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JGB37-520-2</Uid>
+<Uid>GEARED BODY, MOTOR, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0.0077499999999999687 0.013423393758658817 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>M3x10 Philips Screw-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Vaz-1</Uid>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.16500000000000001 0.005000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M3x10 Philips Screw-1</Uid>
+</InstancePath>
+<Position>0 0.0016000000000000007 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Kerek-2</Uid>
+</InstancePath>
+<Position>-0.029345618524004149 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>M3x12 Philips Screw_part-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Kerek-2</Uid>
+</InstancePath>
+<Position>-0.0024404422964728612 0.0014999999999999998 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M3x12 Philips Screw_part-1</Uid>
+</InstancePath>
+<Position>0 0.0016000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-2</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0.0025000000000000001 0.0016583123951776999 0.0094999999999999946</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M3x6 Philips Screw_part-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0060000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Felni_vivo_elem-1</Uid>
+</InstancePath>
+<Position>-0.029287690726539639 0.0064740588406764126 0.0037851237848203672</Position>
+<Axis>0 0.86602540378443815 0.50000000000000133</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>M3x6 Philips Screw_part-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JGB37-520-1</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1</Uid>
+</InstancePath>
+<Position>0.0025000000000000001 0.0016583123951776997 0.0094999999999999946</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M3x6 Philips Screw_part-2</Uid>
+</InstancePath>
+<Position>0 0 -0.006000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Felni_vivo_elem-3</Uid>
+</InstancePath>
+<Position>-0.029287690726539639 0.0064740588406764126 0.0037851237848203667</Position>
+<Axis>0 0.86602540378443815 0.50000000000000111</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>M3x6 Philips Screw_part-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>-0.036340000000000011 0.0010000000000000009 0.010630000000000021</Position>
+<Axis>1 0 -2.6947160791872734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NanoV3 v4-1</Uid>
+<Uid>NanoV3 v4.step-1</Uid>
+<Uid>PCB.step-1</Uid>
+<Uid>BottomFace.step-1</Uid>
+<Uid>PinRow1.step-1</Uid>
+<Uid>Pin.step-8</Uid>
+</InstancePath>
+<Position>-0.023380000000000005 0 0.049079999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0.0027599999999999986 0.0010000000000000009 0.0080900000000000138</Position>
+<Axis>-2.6947160791872734e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NanoV3 v4-1</Uid>
+<Uid>NanoV3 v4.step-1</Uid>
+<Uid>PCB.step-1</Uid>
+<Uid>BottomFace.step-1</Uid>
+<Uid>PinRow1.step-1</Uid>
+<Uid>Pin.step-15</Uid>
+</InstancePath>
+<Position>-0.024080000000000001 0 0.049079999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0 0.0089999999999999941 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NanoV3 v4-1</Uid>
+<Uid>NanoV3 v4.step-1</Uid>
+<Uid>PCB.step-1</Uid>
+<Uid>BottomFace.step-1</Uid>
+<Uid>PinRow2.step-1</Uid>
+<Uid>Pin (1).step-8</Uid>
+</InstancePath>
+<Position>-0.023730000000000001 0.0040999999642372109 -0.048730000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0.01192 0.0010000000000000009 0.013170000000000015</Position>
+<Axis>1 0 -2.6947160791872734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hc05-1</Uid>
+</InstancePath>
+<Position>0 0.0014499999999999999 0.0052000000000000006</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0.024620000000000003 0.0010000000000000009 0.013170000000000015</Position>
+<Axis>-2.6947160791872734e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hc05-1</Uid>
+</InstancePath>
+<Position>0.042600000000000006 0.014649999999999998 0.0058999999999999981</Position>
+<Axis>-1.3344026738283136e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0 0.0089999999999999941 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hc05-1</Uid>
+</InstancePath>
+<Position>0.037500000000000006 0 0.0011999999999999988</Position>
+<Axis>1 4.3098719900044903e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>-0.048040000000000013 0.0010000000000000009 0.0080900000000000277</Position>
+<Axis>-1 0 2.6947160791872734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>H-BRIDGE_v2-1</Uid>
+<Uid>pin-64</Uid>
+</InstancePath>
+<Position>0.00031749999999999834 0.0076200000000000018 0.00031749999999999834</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>-0.051579999999999987 0.0010000000000000009 -0.010630000000000049</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>H-BRIDGE_v2-1</Uid>
+<Uid>pin-64</Uid>
+</InstancePath>
+<Position>-0.00031749999999999834 0.0076200000000000018 0.00031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0 0.0089999999999999941 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>H-BRIDGE_v2-1</Uid>
+<Uid>pin-57</Uid>
+</InstancePath>
+<Position>0 0.0025400000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0.048480000000000023 0.0010000000000000009 -0.0071900000000000297</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPU 6050 IMU-1</Uid>
+<Uid>pin header-1</Uid>
+</InstancePath>
+<Position>-0.00031749999999999834 0.0076200000000000018 0.00031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0.053560000000000024 0.0010000000000000009 -0.0080900000000000277</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPU 6050 IMU-1</Uid>
+<Uid>pin header-1</Uid>
+</InstancePath>
+<Position>-0.00031749999999999834 0.0076200000000000018 0.00031750000000000007</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Probapanel-2</Uid>
+</InstancePath>
+<Position>0 0.0089999999999999941 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPU 6050 IMU-1</Uid>
+<Uid>pin header-4</Uid>
+</InstancePath>
+<Position>0 0.0025400000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="JGB37-520" uid="JGB37-520" version="227">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="JGB37-520.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Vaz" uid="Vaz" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Vaz.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="NanoV3 v4" uid="NanoV3 v4" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="NanoV3 v4.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="NanoV3 v4.step" uid="NanoV3 v4.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="NanoV3 v4.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PCB.step" uid="PCB.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="PCB.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="TopFace.step" uid="TopFace.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="TopFace.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PinEnd.step" uid="PinEnd.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="PinEnd.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Leds.step" uid="Leds.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Leds.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BottomFace.step" uid="BottomFace.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="BottomFace.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PinRow1.step" uid="PinRow1.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="PinRow1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PinRow2.step" uid="PinRow2.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="PinRow2.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Resistors.step" uid="Resistors.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Resistors.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="respacks.step" uid="respacks.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="respacks.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="caps.step" uid="caps.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="caps.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="H-BRIDGE_v2" uid="H-BRIDGE_v2" version="172">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="H-BRIDGE_v2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="H-BRIDGE_v2.step" uid="H-BRIDGE_v2.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="H-BRIDGE_v2.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="C3.step" uid="C3.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="C3.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="691411416.step" uid="691411416.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="691411416.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="U1.step" uid="U1.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="U1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="691415632.step" uid="691415632.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="691415632.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="C2.step" uid="C2.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="C2.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="691415496.step" uid="691415496.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="691415496.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="C1.step" uid="C1.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="C1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MPU 6050 IMU" uid="MPU 6050 IMU" version="213">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MPU 6050 IMU.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Akksi" uid="Akksi*:*Default" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Akksi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10290000000000001</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.3944860595281711e-05 5.1653942358340228e-05 4.5082517010690464e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Akksi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.039215686274509803" g="0.49019607843137253" b="0.70980392156862748" a="1"/>
+<Diffuse r="0.039215686274509803" g="0.49019607843137253" b="0.70980392156862748" a="1"/>
+<Specular r="0.011764705882352941" g="0.14705882352941174" b="0.21294117647058824" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base1" uid="Base1*:*Default" version="128">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Base1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00082746890241681872</Mass>
+<CenterOfMass>2.3859645391846772e-06 0 -0.0001159047775018825</CenterOfMass>
+<Inertia>1.645422795192595e-08 4.6168863991020595e-08 2.9894810359110235e-08 0 1.306025829645709e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Board.step" uid="Board.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Board.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00020818800994728702</Mass>
+<CenterOfMass>0.012699999999999999 0.010160000000000001 0.00020574000000000002</CenterOfMass>
+<Inertia>7.1684212967434813e-09 1.0873600698816978e-08 1.8036147075984454e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Board.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.090196078431372548" g="0.22352941176470587" b="0.41960784313725491" a="1"/>
+<Diffuse r="0.090196078431372548" g="0.22352941176470587" b="0.41960784313725491" a="1"/>
+<Specular r="0.045098039215686274" g="0.11176470588235293" b="0.20980392156862746" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CONNECTION, DC MOTOR, JGB37-520" uid="CONNECTION, DC MOTOR, JGB37-520*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CONNECTION, DC MOTOR, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00013787847107407354</Mass>
+<CenterOfMass>4.9064812128673327e-08 -0.00041016891167320436 0.0012233200709064272</CenterOfMass>
+<Inertia>1.5202905945994744e-09 1.5244235596777978e-09 2.2168544879932204e-10 2.6221770237193373e-10 -1.3721823873600549e-14 -1.301105653342698e-15</Inertia>
+</MassProperties>
+<GeometryFile name="CONNECTION- DC MOTOR- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Specular r="0.45294117647058824" g="0.36235294117647054" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520" uid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0034940388522297682</Mass>
+<CenterOfMass>0 0 -0.0020002302022970649</CenterOfMass>
+<Inertia>2.6383973467890707e-07 2.6383973467890707e-07 5.1836402107099356e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="COUPLING BRACKET- GEARED BODY TO DC MOTOR- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chip.step" uid="Chip.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chip.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.2581415785176838e-05</Mass>
+<CenterOfMass>0.033703959388974969 0.0022926843456684519 0.0089485258589901539</CenterOfMass>
+<Inertia>2.4682637639848443e-10 9.128230482222287e-10 6.9790839717310295e-10 9.2193072008352673e-14 -5.1177615378420172e-13 -2.5113704774394823e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Chip.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Crystal.step" uid="Crystal.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Crystal.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.4814728295662424e-06</Mass>
+<CenterOfMass>0.02255710678118655 -0.00052991407197511655 0.0047215087847273171</CenterOfMass>
+<Inertia>1.7407243935448844e-12 2.7779706159613624e-12 1.7407243935448806e-12 0 1.0569987332672618e-12 0</Inertia>
+</MassProperties>
+<GeometryFile name="Crystal.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DC MOTOR, JGB37-520" uid="DC MOTOR, JGB37-520*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DC MOTOR, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013779544327041679</Mass>
+<CenterOfMass>0 0 -0.0071137523745297589</CenterOfMass>
+<Inertia>2.1290817469916959e-07 2.1290817469916962e-07 3.1285872648553574e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DC MOTOR- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded-0.step" uid="Extruded-0.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Extruded-0.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0078695685096314e-06</Mass>
+<CenterOfMass>0 1.2699999999668705e-09 0.00039369999999999997</CenterOfMass>
+<Inertia>2.6708515412352282e-13 1.0582598553502962e-13 2.6876482587226803e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded-0.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded-1.step" uid="Extruded-1.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Extruded-1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0314846740230854e-06</Mass>
+<CenterOfMass>0 1.2699999999216296e-09 0.00039370000000000003</CenterOfMass>
+<Inertia>1.0683423124882115e-12 3.6484903752395166e-12 4.3002467712521756e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded-1.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded.step" uid="Extruded.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Extruded.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00063935990556479041</Mass>
+<CenterOfMass>0 0 0.0018000002100000002</CenterOfMass>
+<Inertia>1.4330184252972181e-08 7.2551344658216036e-09 2.0204301000536427e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Felni_vivo_elem" uid="Felni_vivo_elem*:*Default" version="232">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Felni_vivo_elem.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013000000000000001</Mass>
+<CenterOfMass>-0.02518890956434431 -4.0876937652863725e-05 -2.411214484719265e-05</CenterOfMass>
+<Inertia>2.528567120814593e-07 3.8503824337884527e-07 3.8376398750000249e-07 1.1553371465392289e-09 -1.285923353822867e-09 -2.1725387901596192e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Felni_vivo_elem_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Diffuse r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Specular r="0.37607843137254898" g="0.24431372549019606" b="0.23607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEARED BODY, MOTOR, JGB37-520" uid="GEARED BODY, MOTOR, JGB37-520*:*Default" version="244">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEARED BODY, MOTOR, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0056164340387609858</Mass>
+<CenterOfMass>4.9007923825979158e-14 -0.00043638886435906919 -0.007947141564493141</CenterOfMass>
+<Inertia>1.0777881286385661e-06 1.0996108915233167e-06 1.3729562190652833e-06 1.3092869293516848e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="GEARED BODY- MOTOR- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Kerek" uid="Kerek*:*Default" version="421">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Kerek.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033799999999999997</Mass>
+<CenterOfMass>-0.00028573097760401493 1.4958758077886853e-14 -3.2525529665434067e-14</CenterOfMass>
+<Inertia>2.4191176710795359e-05 1.8230405397328761e-05 1.8230405398383276e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Kerek_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="L298P" uid="L298P*:*Default" version="1255">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="L298P.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00050366589450873383</Mass>
+<CenterOfMass>-1.5323746686428842e-05 0.0080259850285076505 0.0015663884303137858</CenterOfMass>
+<Inertia>1.0239206859158892e-08 4.5698987367853858e-09 1.3847301955636942e-08 -1.0943808647503777e-12 6.623098211270989e-13 -5.4604128110291205e-11</Inertia>
+</MassProperties>
+<GeometryFile name="L298P_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Led (1).step" uid="Led (1).step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Led (1).step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1867726889487032e-06</Mass>
+<CenterOfMass>0.010749999999999977 -0.00021216624223235761 0.024349999999999997</CenterOfMass>
+<Inertia>1.8455188219781472e-13 7.5309923277505049e-13 6.2509335858596525e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Led (1).step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Led.step" uid="Led.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Led.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1867726889487034e-06</Mass>
+<CenterOfMass>0.010749999999999977 -0.00021216624223235761 0.024349999999999997</CenterOfMass>
+<Inertia>1.8455188219781472e-13 7.5309923277505049e-13 6.2509335858596535e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Led.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3x10 Philips Screw" uid="M3x10 Philips Screw*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3x10 Philips Screw.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.8598751076436134e-05</Mass>
+<CenterOfMass>-6.120191225031032e-07 -2.8522600597700225e-07 -0.0029004599880000361</CenterOfMass>
+<Inertia>1.1003184588002483e-09 1.100318292573071e-09 1.4739112288682807e-10 6.56074566108241e-14 -2.6862344443675331e-13 9.7783699129814181e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3x10 Philips Screw_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3x12 Philips Screw_part" uid="M3x12 Philips Screw_part*:*Default" version="183">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3x12 Philips Screw_part.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.8586072406593168e-05</Mass>
+<CenterOfMass>-5.5592894494057017e-07 -2.8693187012811325e-07 -0.0038138052612371911</CenterOfMass>
+<Inertia>1.6891111241431233e-09 1.6890940193827259e-09 1.5545586617057245e-10 9.3428162953044659e-14 -3.0171467038127292e-13 -8.6697988637684367e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3x12 Philips Screw_part_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3x6 Philips Screw_part" uid="M3x6 Philips Screw_part*:*Default" version="203">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3x6 Philips Screw_part.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.8619360898224495e-05</Mass>
+<CenterOfMass>-8.3477346958279481e-07 -4.0777258488741144e-07 -0.0011627519888298163</CenterOfMass>
+<Inertia>3.6908433336339608e-10 3.6907889750577355e-10 1.3123721467106659e-10 2.8218822329370875e-14 -1.9087113194131975e-13 1.4239511171179649e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3x6 Philips Screw_part_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MOTOR SHAFT, JGB37-520" uid="MOTOR SHAFT, JGB37-520*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MOTOR SHAFT, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0045623250893772962</Mass>
+<CenterOfMass>-5.9994941751953603e-05 2.7686297393543962e-10 0.010608090976571477</CenterOfMass>
+<Inertia>1.8540444408381426e-07 1.8470372614628756e-07 2.0111439954026825e-08 -1.127760117557006e-14 1.2970870653842537e-09 -2.6915175465622235e-15</Inertia>
+</MassProperties>
+<GeometryFile name="MOTOR SHAFT- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PCB-0.step" uid="PCB-0.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PCB-0.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012314618070170273</Mass>
+<CenterOfMass>0.021850000000000005 0.00079999999999947333 0.0089500000000000014</CenterOfMass>
+<Inertia>3.2467965661211364e-08 2.2280206867685325e-07 1.9085952671996917e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PCB-0.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.35686274509803922" b="0.66666666666666663" a="1"/>
+<Diffuse r="0" g="0.35686274509803922" b="0.66666666666666663" a="1"/>
+<Specular r="0" g="0.17843137254901961" b="0.33333333333333331" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PLASTIC COVER, DC MOTOR, JGB37-520" uid="PLASTIC COVER, DC MOTOR, JGB37-520*:*Default" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PLASTIC COVER, DC MOTOR, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0044756874182700548</Mass>
+<CenterOfMass>1.3722065411643966e-05 1.3722065411641507e-05 -0.00037158042123103485</CenterOfMass>
+<Inertia>2.9932893059693917e-07 3.0401536332247434e-07 5.7665195662840603e-07 1.4607224508953906e-10 1.4607224508955271e-10 6.1971834363464066e-10</Inertia>
+</MassProperties>
+<GeometryFile name="PLASTIC COVER- DC MOTOR- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pin (1).step" uid="Pin (1).step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pin (1).step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.0359951450650182e-05</Mass>
+<CenterOfMass>-0.023729948893896079 0.0031688879312610062 -0.048729999898539524</CenterOfMass>
+<Inertia>8.1080676267117695e-11 1.7177087569556595e-11 8.1080677626863979e-11 0 0 3.5133530040071101e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Pin (1).step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pin.step" uid="Pin.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pin.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.0359951450650182e-05</Mass>
+<CenterOfMass>-0.023729948893896079 0.0031688879312610062 0.048730000101460488</CenterOfMass>
+<Inertia>8.1080676267117695e-11 1.7177087569556575e-11 8.1080677626863953e-11 0 0 3.5133530040163382e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Pin.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Probapanel" uid="Probapanel*:*Default" version="413">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Probapanel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1552</Mass>
+<CenterOfMass>-7.0565221390116159e-05 0.0044175104092146009 0</CenterOfMass>
+<Inertia>0.00014026817410819198 0.00052036392703538024 0.00038217521476695802 0 9.3214167959152677e-13 9.873779086734164e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Probapanel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.30000001192092896" g="0.30000001192092896" b="0.30000001192092896" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Res.step" uid="Res.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Res.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.9124857699496362e-06</Mass>
+<CenterOfMass>0.015649999999999997 0.00045446197465998951 0.029000000000000001</CenterOfMass>
+<Inertia>1.7977608339131363e-12 1.9253616178850697e-12 6.6307272821666446e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Res.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Resistor black" uid="Resistor black*:*Default" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Resistor black.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.3719507223661737e-06</Mass>
+<CenterOfMass>0 -1.3298875618763849e-05 0</CenterOfMass>
+<Inertia>2.9583639547279453e-12 7.4179549057817993e-12 7.2917494257770707e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Resistor black_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Resistor small black" uid="Resistor small black*:*Default" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Resistor small black.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.9461808009747404e-07</Mass>
+<CenterOfMass>-3.7827724416134731e-07 0.00020825036812230656 0</CenterOfMass>
+<Inertia>6.1676551713639829e-14 3.4611509868400996e-13 3.1183076329407439e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Resistor small black_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Resistor small" uid="Resistor small*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Resistor small.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4052496744748938e-06</Mass>
+<CenterOfMass>0 0.00038690593059505023 0</CenterOfMass>
+<Inertia>1.729017402938379e-13 5.7208681470920314e-13 5.7992782247359845e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Resistor small_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="S2NH chip" uid="S2NH chip*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="S2NH chip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.1887250781265487e-06</Mass>
+<CenterOfMass>-6.1792800756903507e-10 -0.00013742476992373637 -2.2792050647260394e-05</CenterOfMass>
+<Inertia>2.9233992110846025e-12 6.4918242573237583e-12 5.1349707308155542e-12 -6.2589638596892819e-14 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="S2NH chip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SHAFT COUPLER, JGB37-520" uid="SHAFT COUPLER, JGB37-520*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SHAFT COUPLER, JGB37-520.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00050435652059506138</Mass>
+<CenterOfMass>0 0 0.0029742732935375037</CenterOfMass>
+<Inertia>7.1371765255116874e-09 7.1371765255116866e-09 1.1295017154836602e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SHAFT COUPLER- JGB37-520_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small LED" uid="Small LED*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Small LED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.9608933201416635e-07</Mass>
+<CenterOfMass>0 0.00037026236068867538 0</CenterOfMass>
+<Inertia>2.0516848567362018e-13 2.0116532661664715e-13 1.0796294229442442e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Small LED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="USB.step" uid="USB.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="USB.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0001353713217116972</Mass>
+<CenterOfMass>0.039891778990010396 -0.0017625916673028169 0.0089500043416765509</CenterOfMass>
+<Inertia>7.3684283837897069e-10 1.5596754924859616e-09 1.1332051072296334e-09 -1.0594812027022235e-15 8.1496480387202804e-15 -1.347267818932721e-11</Inertia>
+</MassProperties>
+<GeometryFile name="USB.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base" uid="base*:*Default" version="338">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.04694449076502881</Mass>
+<CenterOfMass>0.082500016449875466 0.0083013254925710152 -0.018999995809378382</CenterOfMass>
+<Inertia>1.1244912075287684e-05 0.0001619688109487541 0.00016155600238409315 1.8099779835401725e-14 -1.1808646460335022e-11 -1.5368115422878519e-12</Inertia>
+</MassProperties>
+<GeometryFile name="base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cap.step" uid="cap.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cap.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.3511089555823898e-06</Mass>
+<CenterOfMass>0.026550214204802927 0.00074203616722644033 0.039324999332520108</CenterOfMass>
+<Inertia>2.1862696467325961e-12 6.1805654042102095e-12 6.4228863286220407e-12 0 0 -1.0379666595895614e-15</Inertia>
+</MassProperties>
+<GeometryFile name="cap.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="chip1.step" uid="chip1.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="chip1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.1357502030668422e-05</Mass>
+<CenterOfMass>0.027754388036862161 -0.00059674411959499717 0.0089499999999999823</CenterOfMass>
+<Inertia>3.508294663293976e-10 6.8001047012223707e-10 3.4971350767781626e-10 0 0 1.9277536506396108e-13</Inertia>
+</MassProperties>
+<GeometryFile name="chip1.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="diode.step" uid="diode.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="diode.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0277247462402628e-06</Mass>
+<CenterOfMass>0.015799999999999998 0.00046292882288334294 0.033849999999999998</CenterOfMass>
+<Inertia>2.8645965232659921e-12 3.3323567595286698e-12 1.1999211309846021e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="diode.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hc05" uid="hc05*:*Varsayilan" version="245">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hc05.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013795260091788858</Mass>
+<CenterOfMass>0.019268465366288713 0.0082769940214481256 0.0013593036917066527</CenterOfMass>
+<Inertia>2.7373594787387293e-08 1.6865672238921915e-07 1.9302601258768177e-07 -3.6266285703772782e-10 -3.8426496955961269e-09 -9.5823330440759191e-10</Inertia>
+</MassProperties>
+<GeometryFile name="hc05_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="muanyag_fedo" uid="muanyag_fedo*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="muanyag_fedo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011867238807431472</Mass>
+<CenterOfMass>0 0 0.0050008687068381283</CenterOfMass>
+<Inertia>1.6114545547896514e-07 1.6114545547896514e-07 2.6494720591778267e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="muanyag_fedo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.20862745098039215" g="0.20862745098039215" b="0.20862745098039215" a="1"/>
+<Specular r="0.014901960784313726" g="0.014901960784313726" b="0.014901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pan_head_phillip_mc_screw_m2" uid="pan_head_phillip_mc_screw_m2*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pan_head_phillip_mc_screw_m2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.2058345889351737e-05</Mass>
+<CenterOfMass>-4.7224636359846372e-07 -0.0021465965449612291 -7.5514839621875652e-07</CenterOfMass>
+<Inertia>2.8229787005135749e-10 3.4189399117727901e-11 2.8235694406772116e-10 -7.2764486174410366e-14 -1.5707444176419044e-14 5.0221448267079857e-14</Inertia>
+</MassProperties>
+<GeometryFile name="pan_head_phillip_mc_screw_m2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pin header" uid="pin header*:*Default" version="139">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="pin header.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6671789236999986e-05</Mass>
+<CenterOfMass>0 0.0015422331367489865 0</CenterOfMass>
+<Inertia>5.8312059279603419e-11 1.235149682175208e-11 5.7816483738498404e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pin header_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pin" uid="pin*:*Default" version="139">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="pin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6671789236999986e-05</Mass>
+<CenterOfMass>0 0.0015422331367489865 0</CenterOfMass>
+<Inertia>5.8312059279603432e-11 1.235149682175208e-11 5.7816483738498417e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="respack.step" uid="respack.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="respack.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4905529215219303e-06</Mass>
+<CenterOfMass>0.020799218810897233 0.00038872001021312164 0.033299900245066072</CenterOfMass>
+<Inertia>4.5691026851505933e-12 5.4179136582838794e-12 1.3490646338069522e-12 0 6.0768590443502035e-16 -1.142840753048471e-15</Inertia>
+</MassProperties>
+<GeometryFile name="respack.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sensor chip" uid="sensor chip*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sensor chip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4790774242366914e-05</Mass>
+<CenterOfMass>0 0.00042190165090881602 0</CenterOfMass>
+<Inertia>2.205020725878403e-11 4.2086933875364026e-11 2.2050207258784034e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sensor chip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="switch.step" uid="switch.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="switch.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.8720412283601194e-05</Mass>
+<CenterOfMass>0.017453370727577102 0.00073446771187824259 -0.013379328010712701</CenterOfMass>
+<Inertia>2.892753072397445e-11 3.8755032819283667e-11 1.7498661942395731e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="switch.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="table" uid="table*:*Default" version="411">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="table.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.085243629133690324</Mass>
+<CenterOfMass>0.082499998715149445 0.007529940467912455 -0.045000000806592937</CenterOfMass>
+<Inertia>6.4205179567888268e-05 0.00027148919634274439 0.0002283049897596242 6.2219539113188968e-14 -5.9412495109582286e-10 9.9413037964230192e-14</Inertia>
+</MassProperties>
+<GeometryFile name="table_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vreg.step" uid="vreg.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vreg.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.735883053817967e-05</Mass>
+<CenterOfMass>0.0267191900592961 0.00073995328478599959 0.027002841812388777</CenterOfMass>
+<Inertia>1.1662326391556893e-10 1.6652280120177362e-10 6.6907546756045222e-11 5.5829128006531799e-14 2.5500928532097416e-13 -5.2981821975929448e-13</Inertia>
+</MassProperties>
+<GeometryFile name="vreg.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
